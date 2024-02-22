@@ -1,5 +1,5 @@
 import { movieDTO } from "./movies.model"
-import css from './individualMovie.module.css'
+import css from './IndividualMovie.module.css'
 
 export default function IndividualMovie(props:movieDTO){
 
