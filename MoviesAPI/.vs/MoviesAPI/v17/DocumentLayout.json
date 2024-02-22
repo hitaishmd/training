@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hitaish\\Desktop\\First\\MoviesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DB950C-B1B5-459F-B39D-1B103B09B934}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\hitaish\\desktop\\first\\moviesapi\\moviesapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DB950C-B1B5-459F-B39D-1B103B09B934}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DB950C-B1B5-459F-B39D-1B103B09B934}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\hitaish\\desktop\\first\\moviesapi\\moviesapi\\services\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DB950C-B1B5-459F-B39D-1B103B09B934}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\services\\inmemoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DB950C-B1B5-459F-B39D-1B103B09B934}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\hitaish\\desktop\\first\\moviesapi\\moviesapi\\moviesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E1DB950C-B1B5-459F-B39D-1B103B09B934}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\moviesapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1DB950C-B1B5-459F-B39D-1B103B09B934}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\hitaish\\desktop\\first\\moviesapi\\moviesapi\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1DB950C-B1B5-459F-B39D-1B103B09B934}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\Hitaish\\Desktop\\First\\MoviesAPI\\MoviesAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\Hitaish\\Desktop\\First\\MoviesAPI\\MoviesAPI\\Controllers\\WeatherForecastController.cs*",
+              "RelativeToolTip": "MoviesAPI\\Controllers\\WeatherForecastController.cs*",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:47:52.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InMemoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hitaish\\Desktop\\First\\MoviesAPI\\MoviesAPI\\Services\\InMemoryRepository.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Services\\InMemoryRepository.cs",
+              "ToolTip": "C:\\Users\\Hitaish\\Desktop\\First\\MoviesAPI\\MoviesAPI\\Services\\InMemoryRepository.cs*",
+              "RelativeToolTip": "MoviesAPI\\Services\\InMemoryRepository.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:42:13.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MoviesAPI",
+              "DocumentMoniker": "C:\\Users\\Hitaish\\Desktop\\First\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
+              "RelativeDocumentMoniker": "MoviesAPI\\MoviesAPI.csproj",
+              "ToolTip": "C:\\Users\\Hitaish\\Desktop\\First\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj*",
+              "RelativeToolTip": "MoviesAPI\\MoviesAPI.csproj*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-20T11:41:14.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\Hitaish\\Desktop\\First\\MoviesAPI\\MoviesAPI\\Entities\\Genre.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Entities\\Genre.cs",
+              "ToolTip": "C:\\Users\\Hitaish\\Desktop\\First\\MoviesAPI\\MoviesAPI\\Entities\\Genre.cs*",
+              "RelativeToolTip": "MoviesAPI\\Entities\\Genre.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T11:38:55.784Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
