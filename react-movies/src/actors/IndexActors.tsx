@@ -4,8 +4,8 @@ export default function IndexActors(){
     return (
         <>
             <h3>Actors</h3>
-            <Link className="btn btn-primary" to="/actors/create">Create Genre</Link>
-            <Link className="btn btn-primary" to="/actors/edit">Edit Genre</Link>
+            <Link className="btn btn-primary" to="/actors/create">Create Actor</Link>
+            <Link className="btn btn-primary" to="/actors/edit">Edit Actor</Link>
         </>
     )
 }
