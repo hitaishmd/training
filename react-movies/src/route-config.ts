@@ -26,9 +26,9 @@ const routes = [
     {path:'/movietheaters/create',component:CreateMovieTheaters},
     {path:'/movietheaters/edit/:id(\\d+)',component:EditMovieTheaters},
     
-    {path:'/movie/create',component:CreateMovie},
-    {path:'/movies/edit',component:EditMovie},
-    {path:'/movies/filter/:id(\\d+)',component:FilterMovies},
+    {path:'/movies/create',component:CreateMovie,},
+    {path:'/movies/edit/:id(\\d+)',component:EditMovie},
+    {path:'/movies/filter',component:FilterMovies},
 
     {path:'/',component:LandingPage, exact:true},
     {path:'*',component:RedirectToLandingPage}
