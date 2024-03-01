@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MoviesAPI.Services;
 
 namespace MoviesAPI.Controllers
 {
@@ -11,16 +12,22 @@ namespace MoviesAPI.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        private readonly ILogger<WeatherForecastController> _logger;
+        private readonly ILogger<WeatherForecastController> logger;
+        private readonly IRepository repository;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger)
+        
+
+        public WeatherForecastController(ILogger<WeatherForecastController> logger,IRepository repository)
         {
-            _logger = logger;
+            this.logger = logger;
+            this.repository = repository;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
+            var inMemoryRepository = new InMemoryRepository((ILogger<InMemoryRepository>)logger);
+
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
