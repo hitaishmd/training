@@ -1,7 +1,12 @@
-.div {
-        display:flex;
+.movieWrapper {
+        display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
-        align-items: center;
-       
-}
+        margin: -4px; /* Adjust this value to control spacing between movies */
+    }
+    
+    .movieItem {
+        flex: 0 0 calc(33.33% - 20px); /* Adjust this value for responsiveness and spacing */
+        margin: 4px; /* Adjust this value for spacing between movies */
+        box-sizing: border-box;
+    }
+    

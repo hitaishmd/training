@@ -1,18 +1,26 @@
-import { useParams } from "react-router-dom"
-import GenreForm from "./GenreForm";
 
-export default function EditGenre(){
-    const {id}:any = useParams();
-    return  (
-        <>
-            <h3>Edit Genre</h3>
-            <GenreForm model={{name:'Action'}}
-                onSubmit={async value=>{
-                await new Promise(r=>setTimeout(r,100));
-                console.log(id);
-                console.log(value);
-             }}
-            />
-        </>
-    )
+import GenreForm from "./GenreForm";
+import { urlGenres } from "../endpoints";
+import { genreCreationDTO, genreDTO } from "./genres.model";
+import EditEntity from "../utils/EditEntity";
+
+export default function EditGenre() {
+    return (
+        <EditEntity<genreCreationDTO, genreDTO>
+            url={urlGenres}
+            entityName="Genres"
+            indexURL="/genres">
+            {(entity, edit) =>
+                <GenreForm
+                    model={entity}
+                    onSubmit={async value => {
+                        await edit(value);
+                    }}
+                />
+            }
+        </EditEntity>
+    );
 }
+
+
+

@@ -17,8 +17,7 @@ export default function MapField(props:mapFieldProps){
     return (
         <Map
             coordinates={props.coordinates}
-            handleMapClick={handleMapClick}
-        />
+            handleMapClick={handleMapClick} readOnly={false}        />
     )
 }
 

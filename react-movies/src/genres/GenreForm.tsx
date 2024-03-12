@@ -10,12 +10,12 @@ export default function GenreForm(props:genreFormProps){
         <Formik initialValues={props.model}
                 onSubmit={props.onSubmit}
                 validationSchema={Yup.object({
-                    name: Yup.string().required("This field is mandatory").firstLetterUppercase()
+                    name: Yup.string().required("This field is mandatory").max(50,'Max Length Is 50 Characters')
                 })}
             >
                 {(formikProps) => (<Form placeholder={undefined}>
                     <TextField field="name" displayName="Name" />
-                    <Button disabled ={formikProps.isSubmitting}type='submit'>Save Changes</Button>
+                    <Button disabled ={formikProps.isSubmitting} type='submit'>Save Changes</Button>
                     <Link className="btn btn-secondary" to="/genres">Cancel</Link>
                 </Form>)}
 
@@ -26,5 +26,5 @@ export default function GenreForm(props:genreFormProps){
 
 interface genreFormProps{
     model:genreCreationDTO;
-    onSubmit(values:genreCreationDTO,action:FormikHelpers<genreCreationDTO>):void;
+    onSubmit(value:genreCreationDTO,action:FormikHelpers<genreCreationDTO>):void;
 }

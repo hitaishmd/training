@@ -1,22 +1,22 @@
-.div {
-    margin-right: 2%;
+.div{
+    
     margin-bottom: 10px;
-    text-align: center;
-
+    
 }
 
-.div p {
+.div p{
     height: 44px;
     font-size: 15px;
-    font-weight : bold;
+    font-weight: bold;
+    color: black;
 
 }
 
-.div img {
+.div img{
     width: 225px;
     height: 300px;
 }
 
-.div a {
+.div a{
     text-decoration: none;
 }

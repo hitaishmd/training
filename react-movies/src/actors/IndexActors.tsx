@@ -1,11 +1,46 @@
-import { Link } from "react-router-dom";
+import IndexEntity from "../utils/IndexEntity";
+import { actorDTO } from "./actors.model";
+import { urlActors } from "../endpoints";
 
-export default function IndexActors(){
-    return (
+export default function IndexActors() {
+  return (
+    <IndexEntity<actorDTO>
+      url={urlActors}
+      createURL='actors/create'
+      title="Actors"
+      entityName="Actor"
+    >
+      {(actors, buttons) => (
         <>
-            <h3>Actors</h3>
-            <Link className="btn btn-primary" to="/actors/create">Create Actor</Link>
-            <Link className="btn btn-primary" to="/actors/edit">Edit Actor</Link>
+          <thead>
+            <tr>
+              <th></th>
+
+              <th>Name</th>
+              <th>Picture</th>
+            </tr>
+          </thead>
+          <tbody>
+            {actors?.map((actor) => <tr key={actor.id}>
+                <td>{buttons(`/actors/edit/${actor.id}`, actor.id)}</td>
+                <td>{actor.name}</td>
+                <td>
+                  {" "}
+                  <img
+                    alt="actor"
+                    src={actor.picture}
+                    style={{
+                      height: "64px",
+                      marginRight: "10px",
+                      width: "64px",
+                    }}
+                  />
+                </td>
+              </tr>
+            )}
+          </tbody>
         </>
-    )
+      )}
+    </IndexEntity>
+  );
 }

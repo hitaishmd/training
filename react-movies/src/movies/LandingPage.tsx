@@ -1,57 +1,50 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import MoviesList from "./MoviesList";
 import { landingPageDTO } from "./movies.model";
+import axios, { AxiosResponse } from "axios";
+import { urlMovies } from "../endpoints";
+import AlertContext from "../utils/AlertContext";
 
-export default function LandingPage(){
+export default function LandingPage() {
+  const [movies, setMovies] = useState<landingPageDTO>({});
 
-    const[movies,setMovies]=useState<landingPageDTO>({});
+  useEffect(() => {
+    loadData();
+  }, []);
 
-    useEffect(()=>{
-        const timerId=setTimeout(()=>{
-            setMovies({
-                inTheaters: [ 
-                    {
-                    id:1,
-                    title:'SPIDERMAN : FAR FROM HOME',
-                    poster: 'https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p14569140_v_h10_ap.jpg'
-                    }
-                    ,
-                    {
-                    id:2,
-                    title:'INTERSTELLAR',
-                    poster: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSngBJ0B7UDrLUkDlp6DCQLsEYuWR-DiHwbnxFFCniB3HiP3f3NZmR1-lKSC34ge6YXu4LX'
-                    }
-                    ,
-                    {
-                    id:3,
-                    title:'INCEPTION',
-                    poster: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRRyuWmayVBvqjd1MxTKpRgauq2cCtUzb7Q9QvaFTkAuxAU_EYMoCE3wBuJeftxIzf0grreIw'
-                    }
-                ],
-
-                upcomingReleases:[
-                    {
-                        id:4,
-                        title : 'LUCA',
-                        poster: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQhQZlzN2TDvMHk-ByF881UtRBHwP_yHZa5mamNFjscuc-GTpfYxUEoqIZMho6JPwlO-Wx2xg'
-                    }
-                    ,
-                    {
-                        id:5,
-                        title : 'TENET',
-                        poster:'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYoAGfY4ffCXIoBdPYfxypbrvpGxQ5FA6w0r3ihzqzMZ5kxMaPXWGE50muitVS2CULBCdGvg'
-                    }
-                ]
-            })
-        },500);
-        return ()=>clearTimeout(timerId);
+  function loadData() {
+    axios.get(urlMovies).then((response: AxiosResponse<landingPageDTO>) => {
+      setMovies(response.data);
     });
-    return (
-        <>
-            <h3>In Theaters</h3>
-                    <MoviesList movies={movies.inTheaters}/>
-                    <h3>Upcoming Releases</h3>
-                    <MoviesList movies={movies.upcomingReleases}/>
-        </>
-    )
+  }
+
+  return (
+    <AlertContext.Provider
+      value={() => {
+        loadData();
+      }}
+    >
+<div className="container" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+  <div className="movie-section" style={{ marginBottom: '20px', borderRadius: '10px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', backgroundColor: '#f9f9f9', padding: '20px', width: '100%' }}>
+    <h3 className="section-title" style={{ border: '2px solid #333', textAlign: 'center', padding: '10px', backgroundColor: '#333', color: '#fff', borderRadius: '5px' }}>In Theaters</h3>
+    <div className="movie-list" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px', justifyContent: 'center' }}>
+      <MoviesList movies={movies.inTheaters} />
+    </div>
+  </div>
+
+  <div className="movie-section" style={{ marginBottom: '20px', borderRadius: '10px', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', backgroundColor: '#f9f9f9', padding: '20px', width: '100%' }}>
+    <h3 className="section-title" style={{ border: '2px solid #333', textAlign: 'center', padding: '10px', backgroundColor: '#333', color: '#fff', borderRadius: '5px' }}>Upcoming Releases</h3>
+    <div className="movie-list" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '20px', justifyContent: 'center' }}>
+      <MoviesList movies={movies.upcomingReleases} />
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+    </AlertContext.Provider>
+  );
 }
