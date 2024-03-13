@@ -7,6 +7,10 @@ Introduction
 ###	3.  Folder Structure (Back-End )
 ###	4.  Usage
 ###	5.  Links
+###	6.  API Calls
+###	7.  Learning
+###	8.  Challenges
+
 # 1)  Technology stack used
 	-React.js
 	-Node.js
@@ -43,17 +47,17 @@ Introduction
 	-Delete a movie theater.
 	-Filter through different movie theaters
 
-# 4)  Links
+# 5)  Links
 	-Landing Page - http://localhost:3000/
 	-Genres Page - http://localhost:3000/genres
 	-Actors Page - http://localhost:3000/actors
 	-Movies Page - http://localhost:3000/movies
 	-Movie Theaters Page - http://localhost:3000/movietheaters
 	-Filter Movies Page - http://localhost:3000/movies/filter?page=1
- # 5) API Calls
+ # 6) API Calls
 ![api](https://github.com/hitaishmd/training/assets/160744753/e4340578-c9ba-46a9-8493-e1504ba4209d)
 
-# 6)  Learnings
+# 7)  Learnings
 	- How to use CORS to communicate between the  Front-End and Back-End.
 	-How to set up a Web API
 	- How to make Https requests
@@ -65,7 +69,7 @@ Introduction
 	- Learnt about how JSX Element must be used
 	- Learnt how to display errors and troubleshoot the bugs
  
- #  7)  Challenges
+ #  8)  Challenges
  	- Installing the necessary dependencies
   	- Downloading the right versions of plugins
    	- Creating and using the local Database
