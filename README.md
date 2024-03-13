@@ -2,11 +2,11 @@
 Introduction
 	The Movies Manager project is a web application designed to manage a collection of movies. It provides functionalities to view, add, edit, and delete movies, actors, movie theaters and genres from a database. This documentation aims to provide guidance on setting up the application and understanding its structure and functionality.
 # Table of contents
-##	-Technology stack used
-##	-Folder Structure (Front-End )
-##	-Folder Structure (Back-End )
-##	-Usage
-##	-Links
+###	-Technology stack used
+###	-Folder Structure (Front-End )
+###	-Folder Structure (Back-End )
+###	-Usage
+###	-Links
 # 1)  Technology stack used
 	-React.js
 	-Node.js
@@ -24,7 +24,7 @@ Introduction
 
 
 # 4) Usage
-##     Once the application is running, users can perform the following actions:
+###    Once the application is running, users can perform the following actions:
 	-View a list of movies.
 	-Add a new movie.
 	-Edit an existing movie.
@@ -44,21 +44,21 @@ Introduction
 	-Filter through different movie theaters
 
 # 4)  Links
-⦁	Landing Page - http://localhost:3000/
-⦁	Genres Page - http://localhost:3000/genres
-⦁	Actors Page - http://localhost:3000/actors
-⦁	Movies Page - http://localhost:3000/movies
-⦁	Movie Theaters Page - http://localhost:3000/movietheaters
-⦁	Filter Movies Page - http://localhost:3000/movies/filter?page=1
+	-Landing Page - http://localhost:3000/
+	-Genres Page - http://localhost:3000/genres
+	-Actors Page - http://localhost:3000/actors
+	-Movies Page - http://localhost:3000/movies
+	-Movie Theaters Page - http://localhost:3000/movietheaters
+	-Filter Movies Page - http://localhost:3000/movies/filter?page=1
 
 # 5)  Learnings
-⦁	How to use CORS to communicate between the  Front-End and Back-End.
-⦁	How to set up a Web API
-⦁	How to make Https requests
-⦁	How to handle exceptions
-⦁	Learnt how to do input validation
-⦁	Learnt how to set up the routes and defire urls
-⦁	Learnt how to set up a database and to CRUD operations
-⦁	Used CSS for styling and UI elements
-⦁	Learnt about how JSX Element must be used
-⦁	Learnt how to display errors and troubleshoot the bugs
+	-How to use CORS to communicate between the  Front-End and Back-End.
+	-How to set up a Web API
+	-How to make Https requests
+	-How to handle exceptions
+	-Learnt how to do input validation
+	-Learnt how to set up the routes and defire urls
+	-Learnt how to set up a database and to CRUD operations
+	-Used CSS for styling and UI elements
+	-Learnt about how JSX Element must be used
+	-Learnt how to display errors and troubleshoot the bugs
