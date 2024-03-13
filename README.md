@@ -8,11 +8,11 @@ Introduction
 	-Usage
 	-Links
 # 1)  Technology stack used
-⦁	React.js
-⦁	Node.js
-⦁	CSS
-⦁	Dot Net ASP.Core
-⦁	MSSQL Local Database
+-React.js
+-Node.js
+-CSS
+-Dot Net ASP.Core
+-MSSQL Local Database
 
 # 2)  Folder Structure (Front-End)
 
