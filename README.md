@@ -2,11 +2,11 @@
 Introduction
 	The Movies Manager project is a web application designed to manage a collection of movies. It provides functionalities to view, add, edit, and delete movies, actors, movie theaters and genres from a database. This documentation aims to provide guidance on setting up the application and understanding its structure and functionality.
 # Table of contents
-	-Technology stack used
-	-Folder Structure (Front-End )
-	-Folder Structure (Back-End )
-	-Usage
-	-Links
+##	-Technology stack used
+##	-Folder Structure (Front-End )
+##	-Folder Structure (Back-End )
+##	-Usage
+##	-Links
 # 1)  Technology stack used
 	-React.js
 	-Node.js
@@ -24,7 +24,7 @@ Introduction
 
 
 # 4) Usage
-     Once the application is running, users can perform the following actions:
+##     Once the application is running, users can perform the following actions:
 	-View a list of movies.
 	-Add a new movie.
 	-Edit an existing movie.
