@@ -50,8 +50,10 @@ Introduction
 	-Movies Page - http://localhost:3000/movies
 	-Movie Theaters Page - http://localhost:3000/movietheaters
 	-Filter Movies Page - http://localhost:3000/movies/filter?page=1
+ # 5) API Calls
+![api](https://github.com/hitaishmd/training/assets/160744753/e4340578-c9ba-46a9-8493-e1504ba4209d)
 
-# 5)  Learnings
+# 6)  Learnings
 	-How to use CORS to communicate between the  Front-End and Back-End.
 	-How to set up a Web API
 	-How to make Https requests
@@ -62,3 +64,10 @@ Introduction
 	-Used CSS for styling and UI elements
 	-Learnt about how JSX Element must be used
 	-Learnt how to display errors and troubleshoot the bugs
+ 
+ #  7)  Challenges
+ 	-Installing the necessary dependencies
+  	-Downloading the right versions of plugins
+   	-Creating and using the local Database
+    	-Fixing version clashes
+     
