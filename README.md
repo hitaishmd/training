@@ -15,25 +15,9 @@ Introduction
 ⦁	MSSQL Local Database
 
 # 2)  Folder Structure (Front-End)
-React-movies/
-│
-├── src/                 # Source files
-│   ├── actors/      	# Actor components
-│   ├── forms/          	 # Forms for individual components
-│   ├── genres/         	 # Genre components
-│   ├── movie theaters/        # Movies Theaters component
-│   └── movies			# Movies component
-│   └── utils             		# Utilities component
-│   └── App.tsx                      # Main application component
-│   └── App.css                      # Main styling component
-│   └── endpoints                      # Endpoints to components
-│   └── route-config		# Routes component
-│   └── validations                      # Input validation component
 
-│
-├── public/              # Public files
-├── package.json         # Project dependencies and scripts
-└── README.md            # Project documentation
+![image](https://github.com/hitaishmd/training/assets/160744753/ce19a1f7-06b0-453e-ae21-7834a548268a)
+
 
 # 3)  Folder Structure (Back-End)
  ![folderstructure](https://github.com/hitaishmd/training/assets/160744753/0aac0011-8a26-4165-a738-5e10d37a420e)
