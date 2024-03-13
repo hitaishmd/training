@@ -8,11 +8,11 @@ Introduction
 	-Usage
 	-Links
 # 1)  Technology stack used
--React.js
--Node.js
--CSS
--Dot Net ASP.Core
--MSSQL Local Database
+	-React.js
+	-Node.js
+	-CSS
+	-Dot Net ASP.Core
+	-MSSQL Local Database
 
 # 2)  Folder Structure (Front-End)
 
@@ -25,23 +25,23 @@ Introduction
 
 # 4) Usage
      Once the application is running, users can perform the following actions:
-⦁	View a list of movies.
-⦁	Add a new movie.
-⦁	Edit an existing movie.
-⦁	Delete a movie.
-⦁	View a list of genres.
-⦁	Add a new genre.
-⦁	Edit an existing genre.
-⦁	Delete a genre.
-⦁	View a list of actor.
-⦁	Add a new actor.
-⦁	Edit an existing actor.
-⦁	Delete a actor.
-⦁	View a list of movie theaters.
-⦁	Add a new movie theater.
-⦁	Edit an existing movie theater.
-⦁	Delete a movie theater.
-⦁	Filter through different movie theaters
+	-View a list of movies.
+	-Add a new movie.
+	-Edit an existing movie.
+	-Delete a movie.
+	-View a list of genres.
+	-Add a new genre.
+	-Edit an existing genre.
+	-Delete a genre.
+	-View a list of actor.
+	-Add a new actor.
+	-Edit an existing actor.
+	-Delete a actor.
+	-View a list of movie theaters.
+	-Add a new movie theater.
+	-Edit an existing movie theater.
+	-Delete a movie theater.
+	-Filter through different movie theaters
 
 # 4)  Links
 ⦁	Landing Page - http://localhost:3000/
