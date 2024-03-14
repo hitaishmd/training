@@ -4,7 +4,7 @@
 
 #### The application follows a client-server architecture where the frontend is built with React and TypeScript, and the backend is developed using .NET. The frontend communicates with the backend via RESTful APIs to fetch and update movie information.
 
-## 1)  Technology stack used
+##   Technology stack used
 	-React.js
 	-Node.js
 	-CSS
