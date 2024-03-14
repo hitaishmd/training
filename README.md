@@ -47,7 +47,7 @@
 	-Movies Page - http://localhost:3000/movies
 	-Movie Theaters Page - http://localhost:3000/movietheaters
 	-Filter Movies Page - http://localhost:3000/movies/filter?page=1
- ## API Calls
+ ## API Documentation
 ![api](https://github.com/hitaishmd/training/assets/160744753/e4340578-c9ba-46a9-8493-e1504ba4209d)
 ### ACTORS API
 
