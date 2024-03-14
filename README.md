@@ -1,7 +1,9 @@
 # 		Movies Manager Documentation
 ##   Introduction
 ####	The Movies Manager project is a web application designed to manage a collection of movies. It provides functionalities to view, add, edit, and delete movies, actors, movie theaters and genres from a database. This documentation aims to provide guidance on setting up the application and understanding its structure and functionality.
+##   System Architecture
 
+####The application follows a client-server architecture where the frontend is built with React and TypeScript, and the backend is developed using .NET. The frontend communicates with the backend via RESTful APIs to fetch and update movie information.
 
 ## 1)  Technology stack used
 	-React.js
