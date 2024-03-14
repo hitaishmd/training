@@ -95,7 +95,7 @@
 	-Passing Parameters : int (id of genre to delete)
 	-Returns : null
 
- ###MOVIES
+ ### MOVIES
 
 1) GET  (/api/movies)
 	-Passing Parameters : null
