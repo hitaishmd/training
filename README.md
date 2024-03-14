@@ -51,9 +51,9 @@
 ![api](https://github.com/hitaishmd/training/assets/160744753/e4340578-c9ba-46a9-8493-e1504ba4209d)
 ### ACTORS API
 
-1) GET  (/api/actors)
-	-Passing Parameters : null
-	-Returns : List of Actors
+> 1) GET  (/api/actors)
+>>	-Passing Parameters : null
+>>	-Returns : List of Actors
 
 2) GET  (/api/actors/{id})
 	-Passing Parameters : int (id of the actor to get)
@@ -76,22 +76,22 @@
  ### GENRES API
 
 1) GET  (/api/genres)
-	-Passing Parameters : null
+   --Passing Parameters : null
 	-Returns : List of All Genres
 
-2) GET  (/api/genres/{id})
+3) GET  (/api/genres/{id})
 	-Passing Parameters : int (id of the genre to get)
 	-Returns : GenreDTO 
 
-3) POST (/api/genres/)
+4) POST (/api/genres/)
 	-Passing Parameters : String(Name)
 	-Returns : null
 
-4) PUT  (/api/genres/{id})
+5) PUT  (/api/genres/{id})
 	-Passing Parameters : int(id of genre to edit),String(name to replace)
 	-Returns : null
 
-5) DELETE (/api/actors/{id})
+6) DELETE (/api/actors/{id})
 	-Passing Parameters : int (id of genre to delete)
 	-Returns : null
 
