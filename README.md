@@ -109,7 +109,7 @@
 	-Passing Parameters : String (name of the movie to filter)  
 	-Returns : List of movies the match the search query   
 
-4) POSTGET  (/api/movies/PostGet)
+4) POSTGET  (/api/movies/PostGet)  
 	-Passing Parameters : String(Name),String(Summary),String(TrailerURL),File(Image for poster)  
 	-Returns : List of All movies  
 
