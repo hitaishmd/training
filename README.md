@@ -49,7 +49,7 @@
 	-Filter Movies Page - http://localhost:3000/movies/filter?page=1
  ## API Calls
 ![api](https://github.com/hitaishmd/training/assets/160744753/e4340578-c9ba-46a9-8493-e1504ba4209d)
-### ACTORS
+### ACTORS API
 
 1) GET  (/api/actors)
 	-Passing Parameters : null
@@ -73,7 +73,7 @@
 6) DELETE (/api/actors/{id})
 	-Passing Parameters : int (id of actor to delete)
 
- ### GENRES
+ ### GENRES API
 
 1) GET  (/api/genres)
 	-Passing Parameters : null
@@ -95,7 +95,7 @@
 	-Passing Parameters : int (id of genre to delete)
 	-Returns : null
 
- ### MOVIES
+ ### MOVIES API
 
 1) GET  (/api/movies)
 	-Passing Parameters : null
