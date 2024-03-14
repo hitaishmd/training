@@ -66,5 +66,5 @@
  	- Installing the necessary dependencies
   	- Downloading the right versions of plugins
    	- Creating and using the local Database
-
+	- Fixing version clashes
      
