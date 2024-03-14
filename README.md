@@ -12,16 +12,16 @@
 	-Dot Net ASP.Core
 	-MSSQL Local Database
 
-## 2)  Folder Structure (Front-End)
+##   Folder Structure (Front-End)
 
 ![image](https://github.com/hitaishmd/training/assets/160744753/ce19a1f7-06b0-453e-ae21-7834a548268a)
 
 
-## 3)  Folder Structure (Back-End)
+##  Folder Structure (Back-End)
  ![folderstructure](https://github.com/hitaishmd/training/assets/160744753/0aac0011-8a26-4165-a738-5e10d37a420e)
 
 
-## 4) Usage
+##  Usage
 ###    Once the application is running, users can perform the following actions:
 	-View a list of movies.
 	-Add a new movie.
@@ -41,17 +41,17 @@
 	-Delete a movie theater.
 	-Filter through different movie theaters
 
-## 5)  Links
+##  Links
 	-Landing Page - http://localhost:3000/
 	-Genres Page - http://localhost:3000/genres
 	-Actors Page - http://localhost:3000/actors
 	-Movies Page - http://localhost:3000/movies
 	-Movie Theaters Page - http://localhost:3000/movietheaters
 	-Filter Movies Page - http://localhost:3000/movies/filter?page=1
- ## 6) API Calls
+ ## API Calls
 ![api](https://github.com/hitaishmd/training/assets/160744753/e4340578-c9ba-46a9-8493-e1504ba4209d)
 
-## 7)  Learnings
+##  Learnings
 	- How to use CORS to communicate between the  Front-End and Back-End.
 	-How to set up a Web API
 	- How to make Https requests
@@ -63,7 +63,7 @@
 	- Learnt about how JSX Element must be used
 	- Learnt how to display errors and troubleshoot the bugs
  
- ##  8)  Challenges
+ ##   Challenges
  	- Installing the necessary dependencies
   	- Downloading the right versions of plugins
    	- Creating and using the local Database
