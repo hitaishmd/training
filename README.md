@@ -135,7 +135,7 @@
 	- How to make Https requests
 	- How to handle exceptions
 	- Learnt how to do input validation
-	- Learnt how to set up the routes and defire urls
+	- Learnt how to set up the routes and define urls
 	- Learnt how to set up a database and to CRUD operations
 	- Used CSS for styling and UI elements
 	- Learnt about how JSX Element must be used
